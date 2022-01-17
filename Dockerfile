@@ -2,7 +2,7 @@
 FROM fusuf/whatsasena:latest
 
 
-RUN git clone https://github.com/xRASHMITH/YrBot /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/DarkWinzo/Dark-Queen /root/WhatsAsenaDuplicated
 
 WORKDIR /root/WhatsAsenaDuplicated/
 
