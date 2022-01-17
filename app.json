@@ -1,0 +1,161 @@
+{
+    "name": "Dark-Queen",
+    "description": "Dark-Queen project - වට්ස්ඇප් භාවිතය පහසු හා සතුටුදායි කරයි",
+    "logo": "https://i.ibb.co/n3LnXsy/Tech-Queen.png",
+    "keywords":["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "darkqueen" , "api", "ai"],
+    "stack": "container",
+    "env": {
+        "ASENA_SESSION": {
+            "description": "Qr කේතය මෙහි දමන්න",
+            "required": true
+        },
+        "SUDO": {
+            "description": "+94 මෙතනින් පස්සෙ දාපන් නම්බරේ",
+            "required": false,
+            "value":"+94775200935"
+        },
+        "LANGUAGE": {
+            "description": "බොට් භාෂාව. English => EN   Sinhala=> si",
+            "required": true,
+            "value": "si"
+        },
+        "ANTI_LINK": {
+            "description": "ග්රූප් එකට ලින්ක් දැම්මොත් උ කික් වෙනවා..",
+            "required": true,
+            "value": "false"
+        },
+        "AUTO_BIO": {
+            "description": "මේක නම් තාම වැඩ නැත.",
+            "required": true,
+            "value": "false"
+        },
+        "HANDLERS": {
+            "description": "කමාන්ඩ් එකට කලින් ටයිප් කරන්න ඕනි සලකුන",
+            "required": true,
+            "value": "^[.!;]"
+        },
+        "FULL_EVA": {
+            "description": "වට්සැප් චැට්බොට් ඇක්ටිව් වෙනෝ.English චැට් විතරයි හැබැයි.සිංහල දැම්මොත් රිප්ලයි දාවි!",
+            "required": true,
+            "value": "false"
+         },
+        "NO_LOG": {
+            "description": "වාත මැසේජ් ටිකක් හෙරොකු ලොග් එකේ ඕන්නම් ..",
+            "required": true,
+            "value": "false"
+        },
+        "SEND_READ": {
+            "description": "මැසේජ් බලනවද නැද්ද කියල (බොට්).",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU": {
+            "description": "මේක උබට අදාලම නෑ බං..",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "හෙරොකු API කී එක දාම්",
+            "required": true
+        },
+        "MUTE_MESSAGE": {
+            "description": "වෙනස් කළ හැකි නිශ්ශබ්ද කිරිමේ පණිවිඩය! Use => default.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_CHAT": {
+            "description": "බොට් වැඩ කරන්න ඕනි නැති චැට්. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...,Group වලට නම් Jid ",
+            "required": false,
+            "value": "false"
+        },
+        "UNMUTE_MESSAGE": {
+            "description": "වෙනස් කළ හැකි ශබ්ද කිරිමේ පණිවිඩය! Use => default .",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_MESSAGE": {
+            "description": " වෙනස් කළ හැකි අවහිර කිරිමේ පණිවිඩය! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "UNBLOCK_MESSAGE": {
+            "description": "වෙනස් කළ හැකි අවහිර ඉවත් කිරිමේ පණිවිඩය! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "WORK_TYPE": {
+            "description": "පබ්ලික් දාන්න.බටන් තියෙන්නෙ පබ්ලික් මොඩ් එකේ විතරයි",
+            "required": true,
+            "value": "public"
+        },
+        "HEROKU_APP_NAME": {
+            "description": "උඩන්ම ටයිප් කරපු නම මෙතනට දාන්න.",
+            "required": true
+        },
+        "DEBUG": {
+            "description": "වාත මැසේජ් තමයි.",
+            "required": true,
+            "value": "false"
+        },
+        "REMOVE_BG_API_KEY": {
+            "description": "ලොග් වෙලා Api එක ගන්න . https://remove.bg",
+            "required": false
+        },
+        "ALIVE_MESSAGE": {
+            "description": "වෙනස් කළ හැකි Alive පණිවිඩය! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BAN_MESSAGE": {
+            "description": "වෙනස් කළ හැකි ඉවත් කිරිමේ පණිවිඩය! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "ADD_MESSAGE": {
+            "description": "වෙනස් කළ හැකි එකතු කිරිමේ කිරිමේ පණිවිඩය! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "KICKME_MESSAGE": {
+            "description": "වෙනස් කළ හැකි ස්වයං අයින් වීමේ පණිවිඩය! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MESSAGE": {
+            "description": "වෙනස් කළ හැකි උසස් කිරීමේ පණිවිඩය! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MESSAGE": {
+            "description": "වෙනස් කළ හැකි සාමාන්‍ය කිරිමේ පණිවිඩය! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MESSAGE": {
+            "description": "වෙනස් කළ හැකි AFK පණිවිඩය! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "GAN_IMAGE": {
+            "description": "අදාලම නැැ ඔයාට.",
+            "required": true,
+            "value": "https://i.ibb.co/n3LnXsy/Tech-Queen.png"
+        },
+        "NO_ONLINE": {
+            "description": " ඔන්ලයින් කියල පෙන්නනෙ නැ මේක දැම්මම.",
+            "required": false,
+            "value": "true"
+        },
+        "COFFEEHOUSE_API_KEY": {
+            "description": "මෙය අත්හරින්න!",
+            "required": false,
+            "value": "true"
+        }
+    },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
